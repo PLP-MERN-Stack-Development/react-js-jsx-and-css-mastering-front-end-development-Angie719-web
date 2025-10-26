@@ -1,9 +1,11 @@
-/* Tailiwind Directives */
+/* src/index.css */
 @import "tailwindcss/preflight";
+/* stylelint-disable at-rule-no-unknown */
+/* Removed deprecated @tailwind components for Tailwind v4 */
 @tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
 
-
-/* Custom Global Styles */
+/* Global styles */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
