@@ -108,8 +108,3 @@ npm run dev
 The application will typically be available at the address displayed in the terminal (e.g., http://localhost:5173).
 
 
-## Live demo
-
-View the app on GitHub Pages: [Live demo](https://USERNAME.github.io/REPO-NAME)
-
-
