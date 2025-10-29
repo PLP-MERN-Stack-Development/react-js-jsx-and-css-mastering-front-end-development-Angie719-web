@@ -16,23 +16,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 🎨 React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 This project is a fully functional, responsive Single Page Application (SPA) built with React, leveraging modern features like Hooks, Context API, and a custom hook for state management. Styling is handled exclusively by Tailwind CSS, including a full light/dark theme switcher and responsive breakpoints.
 
 The application serves two primary functions: a persistent Task Manager and an API Data Viewer with advanced features like infinite scrolling.
 
-✨ Features Implemented
+## ✨ Features Implemented
 
 This application successfully fulfills all core objectives of the assignment:
 
-1. Component Architecture & Reusability
+## 1. Component Architecture & Reusability
 
 Reusable UI: Dedicated components for Button, Card, Navbar, and Footer using props for customizability.
 
 Layout: A main Layout component wraps all pages with the persistent navigation and footer.
 
-2. State Management and Hooks
+## 2. State Management and Hooks
 
 Task Manager (/): Full CRUD operations (Create, Read, Update, Delete) for tasks.
 
@@ -42,7 +42,7 @@ Theming: Implemented a full light/dark mode using useContext (ThemeContext) and 
 
 Filtering: Tasks can be filtered by All, Active, and Completed status using useState.
 
-3. API Integration
+## 3. API Integration
 
 Data Fetching (/posts): Fetches mock data (posts) from the JSONPlaceholder API.
 
@@ -65,7 +65,7 @@ Routing.      React Router DOM (v6).   Declarative routing
 
 Data Source.    JSONPlaceholder.         Public mock REST API
 
-📂 Project Structure
+## 📂 Project Structure
 
 src/
 ├── api/                  # Functions for external data fetching
@@ -81,7 +81,7 @@ src/
 └── main.jsx              # Entry point (Context providers, Router)
 
 
-⚙️ Installation and Setup
+## ⚙️ Installation and Setup
 
 Prerequisites
 
@@ -95,8 +95,7 @@ Navigate to the project directory:
 
 cd react-task-manager
 
-
-Install Dependencies:
+# Dependencies:
 
 npm install
 
@@ -106,4 +105,11 @@ Start the Development Server:
 npm run dev
 
 
-The application will typically be available at the address displayed in your terminal (e.g., http://localhost:5173).
+The application will typically be available at the address displayed in the terminal (e.g., http://localhost:5173).
+
+
+## Live demo
+
+View the app on GitHub Pages: [Live demo](https://USERNAME.github.io/REPO-NAME)
+
+
